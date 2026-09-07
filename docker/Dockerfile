@@ -1,7 +1,7 @@
 FROM python:3.11-slim
 
-ARG UID=1000
-ARG GID=1000
+ARG UID=999
+ARG GID=999
 
 #install git & studio dependencies
 RUN apt-get update && \
